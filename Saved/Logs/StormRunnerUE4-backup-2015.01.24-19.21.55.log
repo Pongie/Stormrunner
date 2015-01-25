@@ -1,0 +1,636 @@
+﻿Log file open, 01/24/15 18:26:30
+LogInit:Display: Running engine for game: StormRunnerUE4
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.01.24-23.26.30:372][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.01.24-23.26.30:411][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.01.24-23.26.30:444][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.01.24-23.26.30:455][  0]LogInit: Object subsystem initialized
+[2015.01.24-23.26.30:465][  0]LogInit: Selected Device Profile: [Windows]
+[2015.01.24-23.26.30:465][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.01.24-23.26.30:472][  0]LogInit: Computer: VZSFP128
+[2015.01.24-23.26.30:472][  0]LogInit: User: Carl
+[2015.01.24-23.26.30:472][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.01.24-23.26.30:472][  0]LogInit: High frequency timer resolution =1.656392 MHz
+[2015.01.24-23.26.30:472][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx) Virtual=131072.0GB
+[2015.01.24-23.26.30:473][  0]LogMemory: Platform Memory Stats for Windows
+[2015.01.24-23.26.30:473][  0]LogMemory: Process Physical Memory: 46.31 MB used, 46.31 MB peak
+[2015.01.24-23.26.30:473][  0]LogMemory: Process Virtual Memory: 22.13 MB used, 24.45 MB peak
+[2015.01.24-23.26.30:473][  0]LogMemory: Physical Memory: 3061.49 MB used, 3979.71 MB total
+[2015.01.24-23.26.30:473][  0]LogMemory: Virtual Memory: 276.10 MB used, 134217728.00 MB total
+[2015.01.24-23.26.30:494][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.01.24-23.26.30:494][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 2 output[s]
+[2015.01.24-23.26.30:497][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.01.24-23.26.30:497][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.01.24-23.26.30:497][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.01.24-23.26.30:502][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2015.01.24-23.26.30:506][  0]LogD3D11RHI: Async texture creation enabled
+[2015.01.24-23.26.30:564][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.01.24-23.26.30:750][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.01.24-23.26.38:710][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.24-23.26.39:424][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.24-23.26.39:503][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.01.24-23.26.39:621][  0]LogDerivedDataCache: Loaded boot cache 0.12s 39MB C:/Users/Carl/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.24-23.26.39:621][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Carl/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.01.24-23.26.39:622][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Projects/StormRunnerUE4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.01.24-23.26.39:622][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.01.24-23.26.39:709][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.01.24-23.26.39:721][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Carl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.01.24-23.26.40:115][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.01.24-23.26.40:331][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.01.24-23.26.40:331][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.01.24-23.26.40:885][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.01.24-23.26.40:968][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.01.24-23.26.43:070][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.01.24-23.26.43:297][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Projects/StormRunnerUE4/Binaries/Win64. Error: 0
+[2015.01.24-23.26.43:493][  0]SourceControl: Info Source control is disabled
+[2015.01.24-23.26.43:493][  0]SourceControl: Info Source control is disabled
+[2015.01.24-23.26.43:503][  0]SourceControl: Info Source control is disabled
+[2015.01.24-23.26.43:677][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.01.24-23.26.43:677][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
+[2015.01.24-23.26.43:746][  0]LogEngine: Initializing Engine...
+[2015.01.24-23.26.43:990][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.01.24-23.26.44:006][  0]LogInit: FAudioDevice initialized.
+[2015.01.24-23.26.44:047][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.01.24-23.26.44:091][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/Carl/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.24-23.26.44:110][  0]LogInit: Texture streaming: Enabled
+[2015.01.24-23.26.44:166][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.01.24-23.26.44:166][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.01.24-23.26.44:168][  0]LogAnalytics: SetUserId 8d244188ccff9392d0bc1af1e4bce0d8
+[2015.01.24-23.26.44:168][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.01.24-23.26.44:191][  0]LogInit: Transaction tracking system initialized
+[2015.01.24-23.26.44:308][  0]BlueprintLog: New page: Editor Load
+[2015.01.24-23.26.44:344][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2015.01.24-23.26.44:344][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.01.24-23.26.45:203][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.24-23.26.45:849][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.24-23.26.51:091][  0]LogConsoleResponse:Display: 
+[2015.01.24-23.26.51:166][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.24-23.26.51:434][  0]SourceControl: Info Source control is disabled
+[2015.01.24-23.26.51:434][  0]Cmd: MAP LOAD FILE="../../../../../../Projects/StormRunnerUE4/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.24-23.26.51:435][  0]LightingResults: New page: Lighting Build
+[2015.01.24-23.26.51:446][  0]MapCheck: New page: Map Check
+[2015.01.24-23.26.51:446][  0]LightingResults: New page: Lighting Build
+[2015.01.24-23.26.51:466][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D42DB99E0
+[2015.01.24-23.26.52:221][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.24-23.26.52:221][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.24-23.26.52:225][  0]Cmd: MAP CHECKDEP
+[2015.01.24-23.26.52:225][  0]MapCheck: New page: Example_Map - Jan 24, 2015, 1:26:52 PM
+[2015.01.24-23.26.52:333][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 108.61ms to complete.
+[2015.01.24-23.26.52:334][  0]LogFileHelpers: Loading map 'Example_Map' took 0.899
+[2015.01.24-23.26.52:487][  0]LogCollectionManager: Loaded 0 collections in 0.001415 seconds
+[2015.01.24-23.26.52:710][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.01.24-23.26.52:747][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.01.24-23.26.52:787][  0]LogLoad: Full Startup: 24.70 seconds (BP compile: 0.07 seconds)
+[2015.01.24-23.26.53:053][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2015.01.24-23.26.53:870][  4]LogAssetRegistry: Asset discovery search completed in 9.5363 seconds
+[2015.01.24-23.30.58:176][ 18]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sedan'
+[2015.01.24-23.31.01:087][ 44]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.24-23.31.01:230][ 44]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.24-23.32.51:312][ 75]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.24-23.32.51:369][ 75]LogActorComponent: UnregisterComponent: (/Engine/Transient.WheeledVehicleMovementComponent4W_0) Not registered. Aborting.
+[2015.01.24-23.33.00:290][209]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.24-23.33.00:742][209]LogActorComponent: UnregisterComponent: (/Engine/Transient.WheeledVehicleMovementComponent4W_1) Not registered. Aborting.
+[2015.01.24-23.33.04:498][271]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.24-23.33.04:535][271]LogActorComponent: UnregisterComponent: (/Engine/Transient.WheeledVehicleMovementComponent4W_2) Not registered. Aborting.
+[2015.01.24-23.33.51:037][133]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.24-23.33.51:080][133]LogActorComponent: UnregisterComponent: (/Engine/Transient.WheeledVehicleMovementComponent4W_3) Not registered. Aborting.
+[2015.01.24-23.33.58:131][232]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.24-23.33.58:596][232]LogActorComponent: UnregisterComponent: (/Engine/Transient.WheeledVehicleMovementComponent4W_4) Not registered. Aborting.
+[2015.01.24-23.34.16:413][529]BlueprintLog: New page: Compile Sedan
+[2015.01.24-23.34.16:593][529]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.24-23.34.16:717][529]LogActorComponent: UnregisterComponent: (/Engine/Transient.WheeledVehicleMovementComponent4W_5) Not registered. Aborting.
+[2015.01.24-23.34.16:866][529]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.24-23.34.16:915][529]BlueprintEditorCompileResults: Info [0468.82] Compile of Sedan successful! [in 400 ms]
+[2015.01.24-23.35.07:383][300]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2015.01.24-23.37.08:567][629]LogActorComponent: UnregisterComponent: (/Engine/Transient.WheeledVehicleMovementComponent4W_6) Not registered. Aborting.
+[2015.01.24-23.37.08:622][629]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.054
+[2015.01.24-23.37.08:672][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sedan/Sedan] ([1] browsable assets)...
+[2015.01.24-23.37.08:722][629]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Sedan/Sedan.Sedan]
+[2015.01.24-23.37.08:722][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sedan/Sedan]
+[2015.01.24-23.37.08:725][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sedan/Sedan" FILE="../../../../../../Projects/StormRunnerUE4/Saved/Autosaves/Game/Sedan/Sedan_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.01.24-23.37.09:144][629]LogSavePackage: Save=410.021912ms
+[2015.01.24-23.37.09:144][629]LogSavePackage: Moving '../../../../../../Projects/StormRunnerUE4/Saved/Sedan_Auto13BF64B3B495A5DDCBF55678FC4203F4B.tmp' to '../../../../../../Projects/StormRunnerUE4/Saved/Autosaves/Game/Sedan/Sedan_Auto1.uasset'
+[2015.01.24-23.37.09:150][629]LogFileHelpers: Auto-saving content packages took 0.528
+[2015.01.24-23.40.12:992][369]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.24-23.40.33:852][500]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.24-23.40.33:860][500]LogPlayLevel: [PIE] Compiling MyHUD before PIE...
+[2015.01.24-23.40.33:991][500]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.01.24-23.40.34:060][500]LogActorComponent: UnregisterComponent: (/Engine/Transient.WheeledVehicleMovementComponent4W_7) Not registered. Aborting.
+[2015.01.24-23.40.34:131][500]LogPlayLevel: PIE:  Blueprint regeneration took 279 ms (2 blueprints)
+[2015.01.24-23.40.34:132][500]PIE: New page: PIE session: Example_Map (Jan 24, 2015, 1:40:34 PM)
+[2015.01.24-23.40.34:355][500]LogPlayLevel: PIE: StaticDuplicateObject took: (0.222467s)
+[2015.01.24-23.40.34:356][500]LogPlayLevel: PIE: World Init took: (0.001073s)
+[2015.01.24-23.40.34:357][500]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.224303s)
+[2015.01.24-23.40.34:421][500]LogWorld: Game class is 'MyGame_C'
+[2015.01.24-23.40.34:441][500]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.24-23.40.34:455][500]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2015.01.24-18.40.34
+[2015.01.24-23.40.34:459][500]LogWorld: Bringing up level for play took: 0.017387
+[2015.01.24-23.40.34:486][500]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.9
+[2015.01.24-23.40.43:863][815]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D57F4C7C0
+[2015.01.24-23.40.43:894][815]Cmd: SELECT NONE
+[2015.01.24-23.40.45:422][849]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.24-23.40.45:422][849]PIE: New page: PIE session: Example_Map (Jan 24, 2015, 1:40:45 PM)
+[2015.01.24-23.40.45:539][849]LogPlayLevel: PIE: StaticDuplicateObject took: (0.116384s)
+[2015.01.24-23.40.45:541][849]LogPlayLevel: PIE: World Init took: (0.001172s)
+[2015.01.24-23.40.45:541][849]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.117843s)
+[2015.01.24-23.40.45:577][849]LogWorld: Game class is 'MyGame_C'
+[2015.01.24-23.40.45:580][849]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.24-23.40.45:593][849]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2015.01.24-18.40.45
+[2015.01.24-23.40.45:595][849]LogWorld: Bringing up level for play took: 0.015044
+[2015.01.24-23.40.45:600][849]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.013
+[2015.01.24-23.40.59:139][335]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D38E76FC0
+[2015.01.24-23.41.10:188][548]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.24-23.41.10:188][548]PIE: New page: PIE session: Example_Map (Jan 24, 2015, 1:41:10 PM)
+[2015.01.24-23.41.10:326][548]LogPlayLevel: PIE: StaticDuplicateObject took: (0.136675s)
+[2015.01.24-23.41.10:327][548]LogPlayLevel: PIE: World Init took: (0.000977s)
+[2015.01.24-23.41.10:327][548]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.138063s)
+[2015.01.24-23.41.10:360][548]LogWorld: Game class is 'MyGame_C'
+[2015.01.24-23.41.10:363][548]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.24-23.41.10:376][548]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2015.01.24-18.41.10
+[2015.01.24-23.41.10:378][548]LogWorld: Bringing up level for play took: 0.014596
+[2015.01.24-23.41.10:382][548]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.796
+[2015.01.24-23.41.46:437][202]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.24-23.41.46:754][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D37449BC0
+[2015.01.24-23.42.03:079][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sedan/Sedan" FILE="../../../../../../Projects/StormRunnerUE4/Content/Sedan/Sedan.uasset" SILENT=true
+[2015.01.24-23.42.03:565][408]LogSavePackage: Save=482.154572ms
+[2015.01.24-23.42.03:565][408]LogSavePackage: Moving '../../../../../../Projects/StormRunnerUE4/Saved/SedanC9696CEC4FADD62FCD6A2580A4C5E465.tmp' to '../../../../../../Projects/StormRunnerUE4/Content/Sedan/Sedan.uasset'
+[2015.01.24-23.42.04:548][422]BlueprintLog: New page: Compile Sedan
+[2015.01.24-23.42.04:707][422]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.24-23.42.04:866][422]LogActorComponent: UnregisterComponent: (/Engine/Transient.WheeledVehicleMovementComponent4W_8) Not registered. Aborting.
+[2015.01.24-23.42.04:988][422]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.24-23.42.05:039][422]BlueprintEditorCompileResults: Info [0936.95] Compile of Sedan successful! [in 423 ms]
+[2015.01.24-23.42.07:264][453]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.24-23.42.07:275][453]LogPlayLevel: [PIE] Compiling MyHUD before PIE...
+[2015.01.24-23.42.07:482][453]LogPlayLevel: PIE:  Blueprint regeneration took 218 ms (1 blueprints)
+[2015.01.24-23.42.07:483][453]PIE: New page: PIE session: Example_Map (Jan 24, 2015, 1:42:07 PM)
+[2015.01.24-23.42.07:626][453]LogPlayLevel: PIE: StaticDuplicateObject took: (0.142831s)
+[2015.01.24-23.42.07:627][453]LogPlayLevel: PIE: World Init took: (0.001011s)
+[2015.01.24-23.42.07:627][453]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.144117s)
+[2015.01.24-23.42.07:665][453]LogWorld: Game class is 'MyGame_C'
+[2015.01.24-23.42.07:669][453]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.24-23.42.07:682][453]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2015.01.24-18.42.07
+[2015.01.24-23.42.07:685][453]LogWorld: Bringing up level for play took: 0.015882
+[2015.01.24-23.42.07:690][453]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.104
+[2015.01.24-23.42.15:375][603]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D5E75A5C0
+[2015.01.24-23.42.19:947][672]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.01.24-23.42.25:900][780]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.24-23.42.44:768][ 94]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2015.01.24-23.43.14:131][358]LogEditorTransaction: Undo Modify Component(s)
+[2015.01.24-23.43.14:202][358]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.24-23.43.56:794][821]LogEditorTransaction: Undo Modify Component(s)
+[2015.01.24-23.43.56:996][821]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.24-23.44.17:344][148]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.24-23.44.17:413][148]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.24-23.44.17:472][148]LogPlayLevel: [PIE] Compiling Sedan before PIE...
+[2015.01.24-23.44.17:633][148]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.24-23.44.17:826][148]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.24-23.44.17:920][148]LogPlayLevel: [PIE] Compiling MyHUD before PIE...
+[2015.01.24-23.44.18:115][148]LogPlayLevel: PIE:  Blueprint regeneration took 771 ms (2 blueprints)
+[2015.01.24-23.44.18:115][148]PIE: New page: PIE session: Example_Map (Jan 24, 2015, 1:44:18 PM)
+[2015.01.24-23.44.18:249][148]LogPlayLevel: PIE: StaticDuplicateObject took: (0.133196s)
+[2015.01.24-23.44.18:250][148]LogPlayLevel: PIE: World Init took: (0.001012s)
+[2015.01.24-23.44.18:250][148]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.134542s)
+[2015.01.24-23.44.18:291][148]LogWorld: Game class is 'MyGame_C'
+[2015.01.24-23.44.18:297][148]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.24-23.44.18:313][148]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2015.01.24-18.44.18
+[2015.01.24-23.44.18:315][148]LogWorld: Bringing up level for play took: 0.016568
+[2015.01.24-23.44.18:318][148]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.732
+[2015.01.24-23.44.21:947][213]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D39E94400
+[2015.01.24-23.44.45:156][459]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.24-23.44.45:231][459]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.24-23.44.45:285][459]LogPlayLevel: [PIE] Compiling Sedan before PIE...
+[2015.01.24-23.44.45:428][459]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.24-23.44.45:623][459]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.24-23.44.45:681][459]LogPlayLevel: [PIE] Compiling MyHUD before PIE...
+[2015.01.24-23.44.45:893][459]LogPlayLevel: PIE:  Blueprint regeneration took 737 ms (2 blueprints)
+[2015.01.24-23.44.45:893][459]PIE: New page: PIE session: Example_Map (Jan 24, 2015, 1:44:45 PM)
+[2015.01.24-23.44.46:024][459]LogPlayLevel: PIE: StaticDuplicateObject took: (0.130115s)
+[2015.01.24-23.44.46:025][459]LogPlayLevel: PIE: World Init took: (0.001124s)
+[2015.01.24-23.44.46:025][459]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.131625s)
+[2015.01.24-23.44.46:061][459]LogWorld: Game class is 'MyGame_C'
+[2015.01.24-23.44.46:064][459]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.24-23.44.46:074][459]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2015.01.24-18.44.46
+[2015.01.24-23.44.46:076][459]LogWorld: Bringing up level for play took: 0.011234
+[2015.01.24-23.44.46:081][459]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.494
+[2015.01.24-23.45.55:642][917]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D575868E0
+[2015.01.24-23.46.40:206][221]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2015.01.24-23.46.48:419][374]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2015.01.24-23.46.56:252][463]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/Items'
+[2015.01.24-23.47.03:015][476]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:/Armor.fbx)
+[2015.01.24-23.47.03:050][476]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.01.24-23.47.03:050][476]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.01.24-23.47.03:050][476]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.01.24-23.47.03:050][476]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.01.24-23.47.03:050][476]LogFbx: ItemName: Material, ItemCount : 1
+[2015.01.24-23.47.03:050][476]LogFbx: ItemName: Texture, ItemCount : 1
+[2015.01.24-23.47.03:050][476]LogFbx: ItemName: Model, ItemCount : 1
+[2015.01.24-23.47.03:050][476]LogFbx: ItemName: Video, ItemCount : 1
+[2015.01.24-23.47.08:174][476]LogFbx: Loading FBX Scene from E:/Armor.fbx
+[2015.01.24-23.47.08:191][476]LogFbx: FBX Scene Loaded Succesfully
+[2015.01.24-23.47.08:198][476]LogLinker:Warning: Can't find file '/Game/Meshes/Items/Armor_Material'
+[2015.01.24-23.47.08:199][476]LogLinker:Warning: Can't find file '/Game/Meshes/Items/Armor_Material'
+[2015.01.24-23.47.08:199][476]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Items/Armor_Material.Armor_Material'
+[2015.01.24-23.47.08:209][476]LogLinker:Warning: Can't find file '/Game/Meshes/Items/Armor_Texture'
+[2015.01.24-23.47.08:209][476]LogLinker:Warning: Can't find file '/Game/Meshes/Items/Armor_Texture'
+[2015.01.24-23.47.08:210][476]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Meshes/Items/Armor_Texture.Armor_Texture'
+[2015.01.24-23.47.08:211][476]LogStreaming:Warning: Failed to read file 'D:/GameJam/GGJ/GGJ2015/Armor_Texture.png' error.
+[2015.01.24-23.47.08:211][476]LogStreaming:Warning: Failed to read file 'E:/Armor_Texture.png' error.
+[2015.01.24-23.47.08:211][476]LogStreaming:Warning: Failed to read file 'E:/Armor_Texture.png' error.
+[2015.01.24-23.47.08:211][476]LogFbxMaterialImport:Warning: Unable to find TEXTure file Armor_Texture.png. Tried:
+ - D:/GameJam/GGJ/GGJ2015/Armor_Texture.png
+ - E:/Armor_Texture.png
+ - E:/Armor_Texture.png
+[2015.01.24-23.47.08:218][476]LogMaterial: Missing cached shader map for material Armor_Material, compiling.
+[2015.01.24-23.47.08:275][476]LogFbx: == Initial material list:
+[2015.01.24-23.47.08:275][476]LogFbx: 0: Armor_Material
+[2015.01.24-23.47.08:275][476]LogFbx: == After sorting:
+[2015.01.24-23.47.08:275][476]LogFbx: 0: Armor_Material
+[2015.01.24-23.47.08:275][476]LogFbx: == Mapping table:
+[2015.01.24-23.47.08:275][476]LogFbx:   sort 0 -> 0
+[2015.01.24-23.47.08:307][476]LogStaticMesh: Building static mesh Armor...
+[2015.01.24-23.47.08:313][476]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.01.24-23.47.08:319][476]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.01.24-23.47.08:319][476]LogLayoutUV:Display:   Rasterize: 1030
+[2015.01.24-23.47.08:319][476]LogLayoutUV:Display:   Find: 2003
+[2015.01.24-23.47.08:323][476]LogLayoutUV:Display: PackCharts: 4 ms
+[2015.01.24-23.47.08:323][476]LogLayoutUV:Display:   Rasterize: 1562
+[2015.01.24-23.47.08:323][476]LogLayoutUV:Display:   Find: 5367
+[2015.01.24-23.47.08:329][476]LogLayoutUV:Display: PackCharts: 5 ms
+[2015.01.24-23.47.08:329][476]LogLayoutUV:Display:   Rasterize: 1853
+[2015.01.24-23.47.08:329][476]LogLayoutUV:Display:   Find: 7437
+[2015.01.24-23.47.08:335][476]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.01.24-23.47.08:335][476]LogLayoutUV:Display:   Rasterize: 2096
+[2015.01.24-23.47.08:335][476]LogLayoutUV:Display:   Find: 8467
+[2015.01.24-23.47.08:348][476]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.01.24-23.47.08:348][476]LogLayoutUV:Display:   Rasterize: 1832
+[2015.01.24-23.47.08:348][476]LogLayoutUV:Display:   Find: 8738
+[2015.01.24-23.47.08:361][476]LogLayoutUV:Display: PackCharts: 7 ms
+[2015.01.24-23.47.08:361][476]LogLayoutUV:Display:   Rasterize: 2366
+[2015.01.24-23.47.08:361][476]LogLayoutUV:Display:   Find: 9260
+[2015.01.24-23.47.08:365][476]LogStaticMesh: Built static mesh [58.146259ms] /Game/Meshes/Items/Armor.Armor
+[2015.01.24-23.47.08:385][476]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.01.24-23.47.08:385][476]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.01.24-23.47.08:420][476]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:/GasCan.fbx)
+[2015.01.24-23.47.08:443][476]LogFbx: Loading FBX Scene from E:/GasCan.fbx
+[2015.01.24-23.47.08:461][476]LogFbx: FBX Scene Loaded Succesfully
+[2015.01.24-23.47.08:465][476]LogLinker:Warning: Can't find file '/Game/Meshes/Items/GasCan_Material'
+[2015.01.24-23.47.08:466][476]LogLinker:Warning: Can't find file '/Game/Meshes/Items/GasCan_Material'
+[2015.01.24-23.47.08:466][476]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Items/GasCan_Material.GasCan_Material'
+[2015.01.24-23.47.08:476][476]LogLinker:Warning: Can't find file '/Game/Meshes/Items/GasCan_Texture'
+[2015.01.24-23.47.08:476][476]LogLinker:Warning: Can't find file '/Game/Meshes/Items/GasCan_Texture'
+[2015.01.24-23.47.08:476][476]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Meshes/Items/GasCan_Texture.GasCan_Texture'
+[2015.01.24-23.47.08:477][476]LogStreaming:Warning: Failed to read file 'D:/GameJam/GGJ/GGJ2015/GasCan_Texture.png' error.
+[2015.01.24-23.47.08:477][476]LogStreaming:Warning: Failed to read file 'E:/GasCan_Texture.png' error.
+[2015.01.24-23.47.08:478][476]LogStreaming:Warning: Failed to read file 'E:/GasCan_Texture.png' error.
+[2015.01.24-23.47.08:478][476]LogFbxMaterialImport:Warning: Unable to find TEXTure file GasCan_Texture.png. Tried:
+ - D:/GameJam/GGJ/GGJ2015/GasCan_Texture.png
+ - E:/GasCan_Texture.png
+ - E:/GasCan_Texture.png
+[2015.01.24-23.47.08:483][476]LogMaterial: Missing cached shader map for material GasCan_Material, compiling.
+[2015.01.24-23.47.08:506][476]LogFbx:Warning: Triangulating static mesh GasCan
+[2015.01.24-23.47.08:621][476]LogFbx: == Initial material list:
+[2015.01.24-23.47.08:621][476]LogFbx: 0: GasCan_Material
+[2015.01.24-23.47.08:621][476]LogFbx: == After sorting:
+[2015.01.24-23.47.08:621][476]LogFbx: 0: GasCan_Material
+[2015.01.24-23.47.08:621][476]LogFbx: == Mapping table:
+[2015.01.24-23.47.08:621][476]LogFbx:   sort 0 -> 0
+[2015.01.24-23.47.08:623][476]LogStaticMesh: Building static mesh GasCan...
+[2015.01.24-23.47.08:628][476]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.01.24-23.47.08:639][476]LogLayoutUV:Display: PackCharts: 3 ms
+[2015.01.24-23.47.08:639][476]LogLayoutUV:Display:   Rasterize: 1877
+[2015.01.24-23.47.08:639][476]LogLayoutUV:Display:   Find: 3698
+[2015.01.24-23.47.08:645][476]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.01.24-23.47.08:645][476]LogLayoutUV:Display:   Rasterize: 2234
+[2015.01.24-23.47.08:645][476]LogLayoutUV:Display:   Find: 7790
+[2015.01.24-23.47.08:652][476]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.01.24-23.47.08:652][476]LogLayoutUV:Display:   Rasterize: 2445
+[2015.01.24-23.47.08:652][476]LogLayoutUV:Display:   Find: 8437
+[2015.01.24-23.47.08:659][476]LogLayoutUV:Display: PackCharts: 7 ms
+[2015.01.24-23.47.08:659][476]LogLayoutUV:Display:   Rasterize: 2523
+[2015.01.24-23.47.08:659][476]LogLayoutUV:Display:   Find: 9758
+[2015.01.24-23.47.08:667][476]LogLayoutUV:Display: PackCharts: 8 ms
+[2015.01.24-23.47.08:667][476]LogLayoutUV:Display:   Rasterize: 2635
+[2015.01.24-23.47.08:667][476]LogLayoutUV:Display:   Find: 10735
+[2015.01.24-23.47.08:676][476]LogLayoutUV:Display: PackCharts: 8 ms
+[2015.01.24-23.47.08:676][476]LogLayoutUV:Display:   Rasterize: 3728
+[2015.01.24-23.47.08:676][476]LogLayoutUV:Display:   Find: 9873
+[2015.01.24-23.47.08:684][476]LogLayoutUV:Display: PackCharts: 8 ms
+[2015.01.24-23.47.08:684][476]LogLayoutUV:Display:   Rasterize: 2641
+[2015.01.24-23.47.08:684][476]LogLayoutUV:Display:   Find: 10458
+[2015.01.24-23.47.08:692][476]LogLayoutUV:Display: PackCharts: 7 ms
+[2015.01.24-23.47.08:692][476]LogLayoutUV:Display:   Rasterize: 2734
+[2015.01.24-23.47.08:692][476]LogLayoutUV:Display:   Find: 10061
+[2015.01.24-23.47.08:698][476]LogStaticMesh: Built static mesh [74.965950ms] /Game/Meshes/Items/GasCan.GasCan
+[2015.01.24-23.47.08:721][476]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.01.24-23.47.08:721][476]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.01.24-23.47.08:738][476]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:/Ham.fbx)
+[2015.01.24-23.47.08:760][476]LogFbx: Loading FBX Scene from E:/Ham.fbx
+[2015.01.24-23.47.08:777][476]LogFbx: FBX Scene Loaded Succesfully
+[2015.01.24-23.47.08:782][476]LogLinker:Warning: Can't find file '/Game/Meshes/Items/Ham_Material'
+[2015.01.24-23.47.08:782][476]LogLinker:Warning: Can't find file '/Game/Meshes/Items/Ham_Material'
+[2015.01.24-23.47.08:782][476]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Items/Ham_Material.Ham_Material'
+[2015.01.24-23.47.08:793][476]LogLinker:Warning: Can't find file '/Game/Meshes/Items/Ham_Texture'
+[2015.01.24-23.47.08:793][476]LogLinker:Warning: Can't find file '/Game/Meshes/Items/Ham_Texture'
+[2015.01.24-23.47.08:793][476]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Meshes/Items/Ham_Texture.Ham_Texture'
+[2015.01.24-23.47.08:794][476]LogStreaming:Warning: Failed to read file 'D:/GameJam/GGJ/GGJ2015/Ham_Texture.png' error.
+[2015.01.24-23.47.08:795][476]LogStreaming:Warning: Failed to read file 'E:/Ham_Texture.png' error.
+[2015.01.24-23.47.08:795][476]LogStreaming:Warning: Failed to read file 'E:/Ham_Texture.png' error.
+[2015.01.24-23.47.08:795][476]LogFbxMaterialImport:Warning: Unable to find TEXTure file Ham_Texture.png. Tried:
+ - D:/GameJam/GGJ/GGJ2015/Ham_Texture.png
+ - E:/Ham_Texture.png
+ - E:/Ham_Texture.png
+[2015.01.24-23.47.08:801][476]LogMaterial: Missing cached shader map for material Ham_Material, compiling.
+[2015.01.24-23.47.08:822][476]LogFbx: == Initial material list:
+[2015.01.24-23.47.08:822][476]LogFbx: 0: Ham_Material
+[2015.01.24-23.47.08:822][476]LogFbx: == After sorting:
+[2015.01.24-23.47.08:822][476]LogFbx: 0: Ham_Material
+[2015.01.24-23.47.08:822][476]LogFbx: == Mapping table:
+[2015.01.24-23.47.08:822][476]LogFbx:   sort 0 -> 0
+[2015.01.24-23.47.08:860][476]LogStaticMesh: Building static mesh Ham...
+[2015.01.24-23.47.08:863][476]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.01.24-23.47.08:867][476]LogLayoutUV:Display: PackCharts: 4 ms
+[2015.01.24-23.47.08:867][476]LogLayoutUV:Display:   Rasterize: 2241
+[2015.01.24-23.47.08:867][476]LogLayoutUV:Display:   Find: 5719
+[2015.01.24-23.47.08:885][476]LogLayoutUV:Display: PackCharts: 5 ms
+[2015.01.24-23.47.08:885][476]LogLayoutUV:Display:   Rasterize: 2316
+[2015.01.24-23.47.08:885][476]LogLayoutUV:Display:   Find: 6053
+[2015.01.24-23.47.08:890][476]LogLayoutUV:Display: PackCharts: 5 ms
+[2015.01.24-23.47.08:890][476]LogLayoutUV:Display:   Rasterize: 2305
+[2015.01.24-23.47.08:890][476]LogLayoutUV:Display:   Find: 6032
+[2015.01.24-23.47.08:893][476]LogStaticMesh: Built static mesh [34.207481ms] /Game/Meshes/Items/Ham.Ham
+[2015.01.24-23.47.08:909][476]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.01.24-23.47.08:909][476]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.01.24-23.47.08:928][476]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.01.24-23.47.08:929][476]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/Items'
+[2015.01.24-23.47.08:930][476]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/Items'
+[2015.01.24-23.47.08:931][476]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/Items'
+[2015.01.24-23.48.02:140][946]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.01.24-23.48.35:684][  9]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.01.24-23.48.44:976][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Projects/StormRunnerUE4/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.01.24-23.48.47:003][ 86]LogSavePackage: Save=1890.042358ms
+[2015.01.24-23.48.47:003][ 86]LogSavePackage: Moving '../../../../../../Projects/StormRunnerUE4/Saved/Example_MapE5275BCD46C006F8FBBE16A475BE8CE4.tmp' to '../../../../../../Projects/StormRunnerUE4/Content/Maps/Example_Map.umap'
+[2015.01.24-23.49.22:188][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sedan/Sedan" FILE="../../../../../../Projects/StormRunnerUE4/Content/Sedan/Sedan.uasset" SILENT=true
+[2015.01.24-23.49.22:578][221]LogSavePackage: Save=371.262970ms
+[2015.01.24-23.49.22:578][221]LogSavePackage: Moving '../../../../../../Projects/StormRunnerUE4/Saved/Sedan1CF2E8EF4895A3D21798DDADC388C1FF.tmp' to '../../../../../../Projects/StormRunnerUE4/Content/Sedan/Sedan.uasset'
+[2015.01.24-23.50.46:870][975]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.24-23.51.07:666][ 63]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.24-23.53.01:378][702]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.01.24-23.53.04:100][735]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Materials'
+[2015.01.24-23.53.19:427][774]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 E:/CarTexture.png)
+[2015.01.24-23.53.19:552][774]Format of this PSD is not supported
+[2015.01.24-23.53.19:553][774]Error: Texture import failed
+[2015.01.24-23.53.23:161][774]LogAssetTools:Warning: Failed to import 'E:/CarTexture.png'. Failed to create asset '/Game/Textures/Materials/CarTexture'
+[2015.01.24-23.53.23:164][774]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:/MainCar.fbx)
+[2015.01.24-23.53.23:187][774]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.01.24-23.53.23:187][774]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.01.24-23.53.23:187][774]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.01.24-23.53.23:187][774]LogFbx: ItemName: Geometry, ItemCount : 6
+[2015.01.24-23.53.23:187][774]LogFbx: ItemName: Material, ItemCount : 1
+[2015.01.24-23.53.23:187][774]LogFbx: ItemName: Texture, ItemCount : 1
+[2015.01.24-23.53.23:187][774]LogFbx: ItemName: Model, ItemCount : 6
+[2015.01.24-23.53.23:188][774]LogFbx: ItemName: Video, ItemCount : 1
+[2015.01.24-23.53.25:313][774]LogFbx: Loading FBX Scene from E:/MainCar.fbx
+[2015.01.24-23.53.25:333][774]LogFbx: FBX Scene Loaded Succesfully
+[2015.01.24-23.53.25:342][774]LogLinker:Warning: Can't find file '/Game/Textures/Materials/lambert2'
+[2015.01.24-23.53.25:342][774]LogLinker:Warning: Can't find file '/Game/Textures/Materials/lambert2'
+[2015.01.24-23.53.25:343][774]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Textures/Materials/lambert2.lambert2'
+[2015.01.24-23.53.25:352][774]LogLinker:Warning: Can't find file '/Game/Textures/Materials/CarTexture'
+[2015.01.24-23.53.25:352][774]LogLinker:Warning: Can't find file '/Game/Textures/Materials/CarTexture'
+[2015.01.24-23.53.25:352][774]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Textures/Materials/CarTexture.CarTexture'
+[2015.01.24-23.53.25:359][774]Format of this PSD is not supported
+[2015.01.24-23.53.25:359][774]Error: Texture import failed
+[2015.01.24-23.53.25:377][774]LogMaterial: Missing cached shader map for material lambert2, compiling.
+[2015.01.24-23.53.25:414][774]LogFbx:Warning: Triangulating static mesh Body
+[2015.01.24-23.53.25:896][774]LogFbx:Warning: Triangulating static mesh pCube3
+[2015.01.24-23.53.25:948][774]LogFbx:Warning: Triangulating static mesh Wheel3
+[2015.01.24-23.53.25:972][774]LogFbx:Warning: Triangulating static mesh Wheel4
+[2015.01.24-23.53.26:005][774]LogFbx:Warning: Triangulating static mesh Wheel2
+[2015.01.24-23.53.26:030][774]LogFbx:Warning: Triangulating static mesh Wheel1
+[2015.01.24-23.53.26:054][774]LogFbx: == Initial material list:
+[2015.01.24-23.53.26:054][774]LogFbx: 0: lambert2
+[2015.01.24-23.53.26:054][774]LogFbx: 1: lambert2
+[2015.01.24-23.53.26:054][774]LogFbx: 2: lambert2
+[2015.01.24-23.53.26:054][774]LogFbx: 3: lambert2
+[2015.01.24-23.53.26:055][774]LogFbx: 4: lambert2
+[2015.01.24-23.53.26:055][774]LogFbx: 5: lambert2
+[2015.01.24-23.53.26:055][774]LogFbx:   remap 1 -> 0
+[2015.01.24-23.53.26:055][774]LogFbx:   remap 2 -> 0
+[2015.01.24-23.53.26:055][774]LogFbx:   remap 3 -> 0
+[2015.01.24-23.53.26:055][774]LogFbx:   remap 4 -> 0
+[2015.01.24-23.53.26:055][774]LogFbx:   remap 5 -> 0
+[2015.01.24-23.53.26:055][774]LogFbx: == After sorting:
+[2015.01.24-23.53.26:055][774]LogFbx: 0: lambert2
+[2015.01.24-23.53.26:055][774]LogFbx: == Mapping table:
+[2015.01.24-23.53.26:055][774]LogFbx:   sort 0 -> 0
+[2015.01.24-23.53.26:055][774]LogFbx:   sort 1 -> 0
+[2015.01.24-23.53.26:055][774]LogFbx:   sort 2 -> 0
+[2015.01.24-23.53.26:055][774]LogFbx:   sort 3 -> 0
+[2015.01.24-23.53.26:055][774]LogFbx:   sort 4 -> 0
+[2015.01.24-23.53.26:055][774]LogFbx:   sort 5 -> 0
+[2015.01.24-23.53.26:064][774]LogStaticMesh: Building static mesh MainCar...
+[2015.01.24-23.53.26:116][774]LogLayoutUV:Display: FindCharts: 4 ms
+[2015.01.24-23.53.26:123][774]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.01.24-23.53.26:123][774]LogLayoutUV:Display:   Rasterize: 10221
+[2015.01.24-23.53.26:123][774]LogLayoutUV:Display:   Find: 706
+[2015.01.24-23.53.26:143][774]LogLayoutUV:Display: PackCharts: 7 ms
+[2015.01.24-23.53.26:143][774]LogLayoutUV:Display:   Rasterize: 10460
+[2015.01.24-23.53.26:143][774]LogLayoutUV:Display:   Find: 1112
+[2015.01.24-23.53.26:151][774]LogLayoutUV:Display: PackCharts: 7 ms
+[2015.01.24-23.53.26:151][774]LogLayoutUV:Display:   Rasterize: 10867
+[2015.01.24-23.53.26:151][774]LogLayoutUV:Display:   Find: 1168
+[2015.01.24-23.53.26:166][774]LogLayoutUV:Display: PackCharts: 7 ms
+[2015.01.24-23.53.26:166][774]LogLayoutUV:Display:   Rasterize: 10628
+[2015.01.24-23.53.26:166][774]LogLayoutUV:Display:   Find: 1191
+[2015.01.24-23.53.26:173][774]LogLayoutUV:Display: PackCharts: 7 ms
+[2015.01.24-23.53.26:173][774]LogLayoutUV:Display:   Rasterize: 10605
+[2015.01.24-23.53.26:173][774]LogLayoutUV:Display:   Find: 1190
+[2015.01.24-23.53.26:214][774]LogStaticMesh: Built static mesh [152.719894ms] /Game/Textures/Materials/MainCar.MainCar
+[2015.01.24-23.53.26:339][774]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:/Road1.fbx)
+[2015.01.24-23.53.26:358][774]LogFbx: Loading FBX Scene from E:/Road1.fbx
+[2015.01.24-23.53.26:373][774]LogFbx: FBX Scene Loaded Succesfully
+[2015.01.24-23.53.26:377][774]LogLinker:Warning: Can't find file '/Game/Textures/Materials/lambert2'
+[2015.01.24-23.53.26:378][774]LogLinker:Warning: Can't find file '/Game/Textures/Materials/lambert2'
+[2015.01.24-23.53.26:378][774]LogFbx:Warning: Triangulating static mesh Road1
+[2015.01.24-23.53.26:380][774]LogFbx: == Initial material list:
+[2015.01.24-23.53.26:380][774]LogFbx: 0: lambert2
+[2015.01.24-23.53.26:380][774]LogFbx: == After sorting:
+[2015.01.24-23.53.26:380][774]LogFbx: 0: lambert2
+[2015.01.24-23.53.26:380][774]LogFbx: == Mapping table:
+[2015.01.24-23.53.26:380][774]LogFbx:   sort 0 -> 0
+[2015.01.24-23.53.26:382][774]LogStaticMesh: Building static mesh Road1...
+[2015.01.24-23.53.26:382][774]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.01.24-23.53.26:382][774]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.24-23.53.26:382][774]LogLayoutUV:Display:   Rasterize: 415
+[2015.01.24-23.53.26:382][774]LogLayoutUV:Display:   Find: 7
+[2015.01.24-23.53.26:383][774]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.24-23.53.26:383][774]LogLayoutUV:Display:   Rasterize: 519
+[2015.01.24-23.53.26:383][774]LogLayoutUV:Display:   Find: 6
+[2015.01.24-23.53.26:383][774]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.24-23.53.26:383][774]LogLayoutUV:Display:   Rasterize: 604
+[2015.01.24-23.53.26:383][774]LogLayoutUV:Display:   Find: 7
+[2015.01.24-23.53.26:384][774]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.24-23.53.26:384][774]LogLayoutUV:Display:   Rasterize: 648
+[2015.01.24-23.53.26:384][774]LogLayoutUV:Display:   Find: 8
+[2015.01.24-23.53.26:384][774]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.24-23.53.26:384][774]LogLayoutUV:Display:   Rasterize: 657
+[2015.01.24-23.53.26:384][774]LogLayoutUV:Display:   Find: 6
+[2015.01.24-23.53.26:385][774]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.24-23.53.26:385][774]LogLayoutUV:Display:   Rasterize: 672
+[2015.01.24-23.53.26:385][774]LogLayoutUV:Display:   Find: 7
+[2015.01.24-23.53.26:385][774]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.24-23.53.26:385][774]LogLayoutUV:Display:   Rasterize: 679
+[2015.01.24-23.53.26:385][774]LogLayoutUV:Display:   Find: 8
+[2015.01.24-23.53.26:386][774]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.24-23.53.26:386][774]LogLayoutUV:Display:   Rasterize: 670
+[2015.01.24-23.53.26:386][774]LogLayoutUV:Display:   Find: 6
+[2015.01.24-23.53.26:386][774]LogStaticMesh: Built static mesh [4.707219ms] /Game/Textures/Materials/Road1.Road1
+[2015.01.24-23.53.39:325][774]LogActorComponent: UnregisterComponent: (/Engine/Transient.WheeledVehicleMovementComponent4W_9) Not registered. Aborting.
+[2015.01.24-23.53.39:573][774]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 E:/Road1.png)
+[2015.01.24-23.53.39:630][774]0.000039 seconds to analyze Texture2D /Game/Textures/Materials/Road1.Road1
+
+[2015.01.24-23.53.39:635][774]LogTexture:Display: Building textures: Road1 (AutoDXT)
+[2015.01.24-23.53.39:890][774]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:/Road2.fbx)
+[2015.01.24-23.53.39:906][774]LogFbx: Loading FBX Scene from E:/Road2.fbx
+[2015.01.24-23.53.39:916][774]LogFbx: FBX Scene Loaded Succesfully
+[2015.01.24-23.53.39:920][774]LogLinker:Warning: Can't find file '/Game/Textures/Materials/lambert3'
+[2015.01.24-23.53.39:920][774]LogLinker:Warning: Can't find file '/Game/Textures/Materials/lambert3'
+[2015.01.24-23.53.39:920][774]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Textures/Materials/lambert3.lambert3'
+[2015.01.24-23.53.39:928][774]LogLinker:Warning: Can't find file '/Game/Textures/Materials/Road2'
+[2015.01.24-23.53.39:928][774]LogLinker:Warning: Can't find file '/Game/Textures/Materials/Road2'
+[2015.01.24-23.53.39:928][774]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Textures/Materials/Road2.Road2'
+[2015.01.24-23.53.39:990][774]LogTexture:Display: Building textures: Road22 (AutoDXT)
+[2015.01.24-23.53.40:258][774]LogMaterial: Missing cached shader map for material lambert3, compiling.
+[2015.01.24-23.53.40:286][774]LogFbx:Warning: Triangulating static mesh Road2
+[2015.01.24-23.53.40:297][774]LogFbx: == Initial material list:
+[2015.01.24-23.53.40:297][774]LogFbx: 0: lambert3
+[2015.01.24-23.53.40:297][774]LogFbx: == After sorting:
+[2015.01.24-23.53.40:297][774]LogFbx: 0: lambert3
+[2015.01.24-23.53.40:297][774]LogFbx: == Mapping table:
+[2015.01.24-23.53.40:297][774]LogFbx:   sort 0 -> 0
+[2015.01.24-23.53.40:320][774]LogStaticMesh: Building static mesh Road2...
+[2015.01.24-23.53.40:321][774]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.01.24-23.53.40:321][774]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.24-23.53.40:321][774]LogLayoutUV:Display:   Rasterize: 620
+[2015.01.24-23.53.40:321][774]LogLayoutUV:Display:   Find: 6
+[2015.01.24-23.53.40:322][774]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.24-23.53.40:322][774]LogLayoutUV:Display:   Rasterize: 775
+[2015.01.24-23.53.40:322][774]LogLayoutUV:Display:   Find: 6
+[2015.01.24-23.53.40:322][774]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.24-23.53.40:322][774]LogLayoutUV:Display:   Rasterize: 819
+[2015.01.24-23.53.40:323][774]LogLayoutUV:Display:   Find: 7
+[2015.01.24-23.53.40:323][774]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.24-23.53.40:323][774]LogLayoutUV:Display:   Rasterize: 776
+[2015.01.24-23.53.40:323][774]LogLayoutUV:Display:   Find: 5
+[2015.01.24-23.53.40:324][774]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.24-23.53.40:324][774]LogLayoutUV:Display:   Rasterize: 865
+[2015.01.24-23.53.40:324][774]LogLayoutUV:Display:   Find: 8
+[2015.01.24-23.53.40:324][774]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.24-23.53.40:324][774]LogLayoutUV:Display:   Rasterize: 867
+[2015.01.24-23.53.40:324][774]LogLayoutUV:Display:   Find: 9
+[2015.01.24-23.53.40:325][774]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.24-23.53.40:325][774]LogLayoutUV:Display:   Rasterize: 854
+[2015.01.24-23.53.40:325][774]LogLayoutUV:Display:   Find: 6
+[2015.01.24-23.53.40:326][774]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.24-23.53.40:326][774]LogLayoutUV:Display:   Rasterize: 868
+[2015.01.24-23.53.40:326][774]LogLayoutUV:Display:   Find: 8
+[2015.01.24-23.53.40:326][774]LogStaticMesh: Built static mesh [6.016692ms] /Game/Textures/Materials/Road2.Road2
+[2015.01.24-23.53.41:930][774]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 E:/Road2.png)
+[2015.01.24-23.53.42:008][774]0.000049 seconds to analyze Texture2D /Game/Textures/Materials/Road2.Road2
+
+[2015.01.24-23.53.42:013][774]LogTexture:Display: Building textures: Road2 (AutoDXT)
+[2015.01.24-23.53.42:399][774]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:/Road3.fbx)
+[2015.01.24-23.53.42:418][774]LogFbx: Loading FBX Scene from E:/Road3.fbx
+[2015.01.24-23.53.42:434][774]LogFbx: FBX Scene Loaded Succesfully
+[2015.01.24-23.53.42:438][774]LogLinker:Warning: Can't find file '/Game/Textures/Materials/lambert2'
+[2015.01.24-23.53.42:439][774]LogLinker:Warning: Can't find file '/Game/Textures/Materials/lambert2'
+[2015.01.24-23.53.42:439][774]LogFbx:Warning: Triangulating static mesh Road3
+[2015.01.24-23.53.42:449][774]LogFbx: == Initial material list:
+[2015.01.24-23.53.42:449][774]LogFbx: 0: lambert2
+[2015.01.24-23.53.42:449][774]LogFbx: == After sorting:
+[2015.01.24-23.53.42:449][774]LogFbx: 0: lambert2
+[2015.01.24-23.53.42:449][774]LogFbx: == Mapping table:
+[2015.01.24-23.53.42:449][774]LogFbx:   sort 0 -> 0
+[2015.01.24-23.53.42:450][774]LogStaticMesh: Building static mesh Road3...
+[2015.01.24-23.53.42:451][774]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.01.24-23.53.42:456][774]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.24-23.53.42:456][774]LogLayoutUV:Display:   Rasterize: 297
+[2015.01.24-23.53.42:456][774]LogLayoutUV:Display:   Find: 305
+[2015.01.24-23.53.42:457][774]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.01.24-23.53.42:457][774]LogLayoutUV:Display:   Rasterize: 433
+[2015.01.24-23.53.42:457][774]LogLayoutUV:Display:   Find: 1323
+[2015.01.24-23.53.42:459][774]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.01.24-23.53.42:459][774]LogLayoutUV:Display:   Rasterize: 475
+[2015.01.24-23.53.42:459][774]LogLayoutUV:Display:   Find: 1600
+[2015.01.24-23.53.42:460][774]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.01.24-23.53.42:460][774]LogLayoutUV:Display:   Rasterize: 517
+[2015.01.24-23.53.42:460][774]LogLayoutUV:Display:   Find: 1810
+[2015.01.24-23.53.42:462][774]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.01.24-23.53.42:462][774]LogLayoutUV:Display:   Rasterize: 616
+[2015.01.24-23.53.42:462][774]LogLayoutUV:Display:   Find: 1734
+[2015.01.24-23.53.42:464][774]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.01.24-23.53.42:464][774]LogLayoutUV:Display:   Rasterize: 594
+[2015.01.24-23.53.42:464][774]LogLayoutUV:Display:   Find: 2476
+[2015.01.24-23.53.42:466][774]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.01.24-23.53.42:466][774]LogLayoutUV:Display:   Rasterize: 545
+[2015.01.24-23.53.42:466][774]LogLayoutUV:Display:   Find: 2468
+[2015.01.24-23.53.42:468][774]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.01.24-23.53.42:468][774]LogLayoutUV:Display:   Rasterize: 573
+[2015.01.24-23.53.42:468][774]LogLayoutUV:Display:   Find: 2376
+[2015.01.24-23.53.42:468][774]LogStaticMesh: Built static mesh [17.876806ms] /Game/Textures/Materials/Road3.Road3
+[2015.01.24-23.53.42:857][774]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 E:/road3.png)
+[2015.01.24-23.53.42:935][774]0.000046 seconds to analyze Texture2D /Game/Textures/Materials/Road3.road3
+
+[2015.01.24-23.53.42:939][774]LogTexture:Display: Building textures: road3 (AutoDXT)
+[2015.01.24-23.53.43:317][774]LogCrashTracker: 
+
+
+[2015.01.24-23.53.44:886][774]LogCrashTracker: 
+
+
+[2015.01.24-23.53.44:886][774]LogWindows: === Critical error: ===
+Fatal error!
+
+Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffff
+
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ff9818a1089) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ff981a25a36) + 0 bytes [UnknownFile:0]
+UE4Editor-AssetTools.dll!UnknownFunction (0x00007ff98788f895) + 0 bytes [UnknownFile:0]
+UE4Editor-AssetTools.dll!UnknownFunction (0x00007ff98788d85f) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ff9819aa321) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ff981835507) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ff98183d979) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ff981968439) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ff996fc4b9a) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ff996ff0a73) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ff996e297bc) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ff996de7347) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ff996e8b2e0) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ff996e7c226) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ff997abe9e9) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ff997aaa1fb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ff997abfbbb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ff997aa6cf2) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ff9c2a7250d) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ff9c2a72367) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ff997ac0076) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff75495cbda) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launchengineloop.cpp:2193]
+UE4Editor.exe!GuardedMain() (0x00007ff75495089f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launch.cpp:131]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff75495090a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff75495e3d9) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff75495f319) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ff9c0b213d2) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ff9c31103c4) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ff9c31103c4) + 0 bytes [UnknownFile:0]
+
+
+[2015.01.24-23.53.45:154][774]LogExit: Executing StaticShutdownAfterError
+[2015.01.24-23.53.45:232][774]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.01.24-23.53.45:232][774]Log file closed, 01/24/15 18:53:45
